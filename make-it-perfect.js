@@ -15,7 +15,7 @@ var makePerfect = function(){
 	$('#progress').css({ width: "0%" });
 	persentage = 0;
 	progress();
-	$('#action p').html('Подождите. Делаеться пиздато.');
+	$('#action p').html('Подождите. Делается пиздато.');
 	$('#progress').animate({ width: fink+"%" }, 10000 );
 	$('#progress').fadeTo(100, 0.35, function(){
 		persentage = fink;
